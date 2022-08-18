@@ -1,0 +1,12 @@
+.App{
+  background-color: rgb(195, 220, 220);
+}
+
+.navbar{
+  overflow: hidden;
+  box-shadow: inset 0 0 20px rgba(201, 43, 43, 0.979);
+  text-align: center;
+
+  
+}
+

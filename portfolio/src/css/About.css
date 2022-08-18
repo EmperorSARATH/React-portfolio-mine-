@@ -1,0 +1,108 @@
+.left{
+    text-align: center;
+
+}
+@media only screen and (min-width: 768px){
+  .right{
+     position: absolute; 
+    top: 100px;
+    /* left: 500px; */
+    width: 100px;
+    margin-left: 600px;
+
+    
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .right{
+    position: absolute;
+    top: 7%;
+    left: 100px;
+    right: 100px;
+    margin-top: 30px;
+    
+    }
+  
+}
+
+
+.about-container{
+    width: min-content;
+}
+
+
+.left{
+   text-align: center;
+    background-color: beige;
+    border-radius: 5%;
+    border-top-right-radius: 5em 20%;
+    border-top-left-radius: 5em 20%;
+    height: 240px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 10px rgb(61, 61, 83);
+
+
+    
+}
+.left:hover{
+    transform: scale(1.2);
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    width: 180px;
+    box-shadow: 10px 5px 5px red;
+    transition: 0.3s;
+    margin-left: 15px;
+
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+
+    padding-top: 2px;
+    padding-left: 16px;
+    padding-bottom: 2px;
+  }
+
+
+/* .two{
+  margin-left:2px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+
+} */
+ul{
+
+  position: absolute;
+    top: 20%;
+    left: 270px;
+    right: 100px;
+    margin-top: 30px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+button{
+  margin-left: 30px;
+  margin-right: 5px;
+  padding: 7px;
+  width: max-content;
+  border-radius: 90%;
+}
+
+img{
+  height: 250px;
+  width: 250px;
+}

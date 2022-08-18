@@ -1,0 +1,53 @@
+.Myproject{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10px;
+
+}
+
+.one{
+    text-align: center;
+    /* background-color: rgb(231, 217, 199); */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    width:400px;
+    height: fit-content;
+    padding-left: 5px;
+    transition: all .5s;
+}
+.one:hover{
+    transform: scale(1.2);
+
+}
+.two:hover{
+    transform: scale(1.2);
+}
+.three:hover{
+    transform: scale(1.2);
+}
+
+.two{
+    overflow:hidden;
+    text-align: center;
+    margin-left: 300px;
+    /* background-color: rgb(231, 217, 199); */
+    height: fit-content;
+    transition: all .5s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+
+
+}
+
+.three{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 10px;
+    /* background-color: rgb(231, 217, 199); */
+    height: fit-content;
+    width: min-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all .5s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+
+}
+

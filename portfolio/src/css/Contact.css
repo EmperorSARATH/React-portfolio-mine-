@@ -1,0 +1,13 @@
+.form-container{
+    margin:auto;
+    width: 50%;
+    background-color: bisque;
+}
+
+label{
+    display: block;
+    
+}
+input{
+    display: block;
+}
